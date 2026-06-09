@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/823ab31d580d4098beaf8ce0f7729e1e/artifacts
+end_time: 1780992787807
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 823ab31d580d4098beaf8ce0f7729e1e
+run_name: capricious-bat-553
+run_uuid: 823ab31d580d4098beaf8ce0f7729e1e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780992779045
+status: 3
+tags: []
+user_id: runner
