@@ -69,7 +69,7 @@ jobs:
           cd MLProject
           mlflow models build-docker \
             --model-uri "runs:/${{ env.RUN_ID }}/model" \
-            --name "${{ secrets.DOCKER_USERNAME }}/telco-churn-model"
+            --name "brikcakristal/telco-churn-model"
 
       - name: Log in to Docker Hub
         uses: docker/login-action@v3
@@ -80,10 +80,10 @@ jobs:
       - name: Tag Docker Image
         run: |
           docker tag \
-            ${{ secrets.DOCKER_USERNAME }}/telco-churn-model:latest \
-            ${{ secrets.DOCKER_USERNAME }}/telco-churn-model:${{ env.RUN_ID }}
+            brikcakristal/telco-churn-model:latest \
+            brikcakristal/telco-churn-model:${{ env.RUN_ID }}
 
       - name: Push Docker Image
         run: |
-          docker push ${{ secrets.DOCKER_USERNAME }}/telco-churn-model:latest
-          docker push ${{ secrets.DOCKER_USERNAME }}/telco-churn-model:${{ env.RUN_ID }}
+          docker push brikcakristal/telco-churn-model:latest
+          docker push brikcakristal/telco-churn-model:${{ env.RUN_ID }}
