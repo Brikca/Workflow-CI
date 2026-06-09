@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/853c5de353cc4d4cb6b0155c152a0ccb/artifacts
+end_time: 1780993814728
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 853c5de353cc4d4cb6b0155c152a0ccb
+run_name: bold-tern-925
+run_uuid: 853c5de353cc4d4cb6b0155c152a0ccb
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780993805034
+status: 3
+tags: []
+user_id: runner
