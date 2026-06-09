@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/ac48d053d7164524a70ce7c05a5365c4/artifacts
+end_time: 1780994215882
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ac48d053d7164524a70ce7c05a5365c4
+run_name: overjoyed-quail-862
+run_uuid: ac48d053d7164524a70ce7c05a5365c4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780994206565
+status: 3
+tags: []
+user_id: runner
