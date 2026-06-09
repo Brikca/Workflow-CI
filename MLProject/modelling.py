@@ -28,10 +28,7 @@ X_train, X_test, y_train, y_test = train_test_split(
 
 # =========================
 # MLflow
-# =========================
-mlflow.set_experiment("Telco-Churn-CI")
-
-mlflow.set_experiment("Telco-Churn-Basic")
+# =========================]
 
 mlflow.sklearn.autolog()
 
