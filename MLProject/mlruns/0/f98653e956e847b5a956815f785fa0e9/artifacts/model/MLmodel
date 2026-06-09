@@ -1,0 +1,42 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.11.15
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+mlflow_version: 2.19.0
+model_size_bytes: 19670414
+model_uuid: 40086cba9deb4cf9997db1e910bd2383
+run_id: f98653e956e847b5a956815f785fa0e9
+signature:
+  inputs: '[{"type": "long", "name": "SeniorCitizen", "required": true}, {"type":
+    "double", "name": "tenure", "required": true}, {"type": "double", "name": "MonthlyCharges",
+    "required": true}, {"type": "double", "name": "TotalCharges", "required": true},
+    {"type": "long", "name": "gender_Male", "required": true}, {"type": "long", "name":
+    "Partner_Yes", "required": true}, {"type": "long", "name": "Dependents_Yes", "required":
+    true}, {"type": "long", "name": "PhoneService_Yes", "required": true}, {"type":
+    "long", "name": "MultipleLines_Yes", "required": true}, {"type": "long", "name":
+    "InternetService_Fiber optic", "required": true}, {"type": "long", "name": "InternetService_No",
+    "required": true}, {"type": "long", "name": "OnlineSecurity_Yes", "required":
+    true}, {"type": "long", "name": "OnlineBackup_Yes", "required": true}, {"type":
+    "long", "name": "DeviceProtection_Yes", "required": true}, {"type": "long", "name":
+    "TechSupport_Yes", "required": true}, {"type": "long", "name": "StreamingTV_Yes",
+    "required": true}, {"type": "long", "name": "StreamingMovies_Yes", "required":
+    true}, {"type": "long", "name": "Contract_One year", "required": true}, {"type":
+    "long", "name": "Contract_Two year", "required": true}, {"type": "long", "name":
+    "PaperlessBilling_Yes", "required": true}, {"type": "long", "name": "PaymentMethod_Credit
+    card (automatic)", "required": true}, {"type": "long", "name": "PaymentMethod_Electronic
+    check", "required": true}, {"type": "long", "name": "PaymentMethod_Mailed check",
+    "required": true}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int64", "shape": [-1]}}]'
+  params: null
+utc_time_created: '2026-06-09 08:53:27.269661'

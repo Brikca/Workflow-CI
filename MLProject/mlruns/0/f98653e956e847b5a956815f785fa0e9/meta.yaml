@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/f98653e956e847b5a956815f785fa0e9/artifacts
+end_time: 1780995211294
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: f98653e956e847b5a956815f785fa0e9
+run_name: dashing-shad-856
+run_uuid: f98653e956e847b5a956815f785fa0e9
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780995201710
+status: 3
+tags: []
+user_id: runner
