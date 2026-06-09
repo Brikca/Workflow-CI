@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/e2a767bd61a741afa5ec9752461891ea/artifacts
+end_time: 1780995060093
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e2a767bd61a741afa5ec9752461891ea
+run_name: nimble-perch-490
+run_uuid: e2a767bd61a741afa5ec9752461891ea
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780995050734
+status: 3
+tags: []
+user_id: runner
