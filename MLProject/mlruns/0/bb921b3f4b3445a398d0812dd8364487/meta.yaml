@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/bb921b3f4b3445a398d0812dd8364487/artifacts
+end_time: 1780997810076
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: bb921b3f4b3445a398d0812dd8364487
+run_name: clumsy-moose-449
+run_uuid: bb921b3f4b3445a398d0812dd8364487
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780997800185
+status: 3
+tags: []
+user_id: runner
