@@ -1,5 +1,4 @@
-name: telco-churn-project
-
-entry_points:
-  main:
-    command: "python modelling.py"
+- name: Run Training
+  run: |
+    cd MLProject
+    python modelling.py
