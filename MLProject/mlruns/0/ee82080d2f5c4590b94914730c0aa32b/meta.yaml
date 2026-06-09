@@ -1,0 +1,15 @@
+artifact_uri: file:///home/runner/work/Workflow-CI/Workflow-CI/MLProject/mlruns/0/ee82080d2f5c4590b94914730c0aa32b/artifacts
+end_time: 1780996810221
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ee82080d2f5c4590b94914730c0aa32b
+run_name: adventurous-bird-25
+run_uuid: ee82080d2f5c4590b94914730c0aa32b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1780996801487
+status: 3
+tags: []
+user_id: runner
